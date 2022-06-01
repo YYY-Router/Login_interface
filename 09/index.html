@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en" >
+<head>
+  <meta charset="UTF-8">
+  <title>登陆界面09</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+<link href="https://fonts.googleapis.com/css?family=Bitter:400,700|Source+Sans+Pro:200,200i,300,300i,400,400i" rel="stylesheet">
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
+<link rel='stylesheet' href='https://cdn.linearicons.com/free/1.0.0/icon-font.min.css'><link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+<div class="wrap">
+  <h4>登 录</h4>
+  <form id="login">
+    <label for="username">用户名 </label>
+    <input id="username" type="text"/>
+    <label for="password">密码</label>
+    <input id="password" type="password"/>
+    <div id="submit">
+      <input id="submit-button" type="submit" value="Log In"/>
+      <label for="submit-button">登 录</label>
+      <div class="dots">
+        <div class="dot"></div>
+        <div class="dot"></div>
+        <div class="dot"></div>
+      </div>
+    </div>
+    <div class="message remain hidden"><span class="lnr lnr-lock"></span> <span class="number">1</span> Attempts left</div>
+    <div class="message lockout hidden"><span class="lnr lnr-history"></span> <span class="number">10</span> Minute lock!</div>
+  </form>
+  <script src='https://cdnjs.cloudflare.com/ajax/libs/jquery/3.1.0/jquery.min.js'></script><script  src="./script.js"></script>
+
+</body>
+</html>
